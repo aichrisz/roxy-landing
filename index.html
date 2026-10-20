@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Roxy — The Quiet Current · Mentor AI</title>
+    <meta
+      name="description"
+      content="Ruang belajar bersama Roxy, persona mentor AI fan-made milik Abel. Rekayasa, riset, dan keberanian untuk mencoba lagi."
+    />
+    <meta name="theme-color" content="#101f28" />
+    <link rel="icon" href="assets/current.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main" data-i="skip">Lewati ke konten</a>
+    <header class="site-header wrap">
+      <a class="brand" href="#" aria-label="Roxy — beranda" data-a="home"
+        ><span class="brand-mark" aria-hidden="true">✳</span> roxy<span
+          class="brand-dot"
+          >.</span
+        ></a
+      >
+      <nav aria-label="Navigasi utama" data-a="nav">
+        <a href="#ethos" data-i="navEthos">Filosofi</a
+        ><a href="#grimoire">Grimoire</a
+        ><a href="#journal" data-i="navJournal">Catatan</a>
+      </nav>
+      <div class="preferences">
+        <button id="language" disabled aria-label="Switch to English">EN</button
+        ><span aria-hidden="true">/</span
+        ><button id="motion" disabled aria-pressed="false" data-i="motionOff">
+          Gerak: mati
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i="heroEyebrow">
+            ATELIER DIGITAL ABEL / PERSONA MENTOR AI
+          </p>
+          <h1 id="hero-title">
+            <span data-i="heroOne">Tenang di permukaan.</span>
+            <em data-i="heroTwo">Dalam di pemikiran.</em>
+          </h1>
+          <p class="hero-description" data-i="heroDesc">
+            Tidak semua jawaban perlu datang cepat. Bersama Roxy, kita mengurai
+            yang rumit, menguji yang belum pasti, dan belajar sampai benar-benar
+            mengerti.
+          </p>
+          <a class="cta" href="#grimoire"
+            ><span data-i="cta">Buka grimoire</span
+            ><span aria-hidden="true">↗</span></a
+          >
+          <p class="hero-note" data-i="heroNote">
+            Sedikit rasa ingin tahu. Banyak ruang untuk tumbuh.
+          </p>
+        </div>
+        <figure class="hero-art">
+          <div class="orbit" aria-hidden="true"></div>
+          <img
+            class="water-map"
+            src="assets/current.svg"
+            alt=""
+            width="500"
+            height="500"
+          /><span class="art-coordinate" aria-hidden="true"
+            >FIG. 01 — THE QUIET CURRENT</span
+          ><img
+            class="roxy"
+            src="assets/roxy-official.png"
+            width="338"
+            height="655"
+            alt="Roxy Migurdia dengan topi penyihir hitam dan kepang biru, terlihat utuh."
+            data-a="art"
+            fetchpriority="high"
+          />
+          <figcaption>
+            <span class="signature">Roxy Migurdia</span
+            ><span data-i="artCaption"
+              >Terinspirasi karakter. Dihidupkan sebagai ide.</span
+            >
+          </figcaption>
+        </figure>
+        <div class="hero-bottom">
+          <span data-i="heroFoot">BUKAN JALAN PINTAS. TEMAN BERPIKIR.</span
+          ><a href="#ethos"><span data-i="scroll">Ikuti arus</span> ↓</a>
+        </div>
+      </section>
+      <section id="ethos" class="ethos wrap" aria-labelledby="ethos-title">
+        <div>
+          <p class="eyebrow" data-i="ethosLabel">01 / FILOSOFI</p>
+          <h2 id="ethos-title" data-i="ethosTitle">
+            Ilmu yang dalam,<br />ego yang kecil.
+          </h2>
+        </div>
+        <div class="ethos-copy">
+          <p class="lead" data-i="ethosLead">
+            Mentor yang baik tidak mengambil alih perjalananmu. Ia membantu
+            membaca petanya.
+          </p>
+          <p data-i="ethosBody">
+            Roxy adalah persona AI fan-made milik Abel: sabar dalam menjelaskan,
+            teliti dalam membangun, dan jujur ketika belum tahu. Bukan manusia,
+            bukan situs resmi anime, dan bukan sumber yang selalu benar.
+          </p>
+          <p class="marginal" data-i="ethosNote">
+            Prinsip kecil: verifikasi jawaban, bukan sekadar mempercayainya.
+          </p>
+        </div>
+      </section>
+      <section
+        id="grimoire"
+        class="grimoire wrap"
+        aria-labelledby="grimoire-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i="grimoireLabel">02 / GRIMOIRE</p>
+            <h2 id="grimoire-title" data-i="grimoireTitle">
+              Tiga jalan. Satu rasa ingin tahu.
+            </h2>
+          </div>
+          <p data-i="grimoireIntro">
+            Bukan kumpulan mantra instan.<br />Bekal untuk berpikir lebih
+            jernih.
+          </p>
+        </div>
+        <div class="grimoire-layout">
+          <div
+            class="discipline-nav"
+            aria-label="Disiplin belajar"
+            data-a="disciplines"
+          >
+            <a id="tab-build" href="#build"
+              ><span>01</span><span data-i="tabBuild">Rekayasa</span
+              ><span aria-hidden="true">↗</span></a
+            ><a id="tab-research" href="#research"
+              ><span>02</span><span data-i="tabResearch">Riset</span
+              ><span aria-hidden="true">↗</span></a
+            ><a id="tab-learn" href="#learn"
+              ><span>03</span><span data-i="tabLearn">Belajar</span
+              ><span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="pages">
+            <div
+              class="grimoire-panel"
+              id="build"
+              aria-labelledby="build-title"
+            >
+              <p class="eyebrow" data-i="buildLabel">
+                MANTRA 01 / DARI IDE KE BUKTI
+              </p>
+              <h3 id="build-title" data-i="buildTitle">
+                Bangun kecil.<br />Uji sungguhan.
+              </h3>
+              <p data-i="buildBody">
+                Ubah masalah besar menjadi bagian yang bisa diperiksa. Mulai
+                dari satu perilaku, tulis pengujiannya, lalu bangun secukupnya
+                agar bekerja.
+              </p>
+              <p class="practice" data-i="buildPractice">
+                Coba ini: pilih satu fungsi yang rapuh. Tulis kasus gagalnya
+                sebelum memperbaiki kodenya.
+              </p>
+              <span class="page-number" aria-hidden="true">I.</span>
+            </div>
+            <div
+              class="grimoire-panel"
+              id="research"
+              aria-labelledby="research-title"
+            >
+              <p class="eyebrow" data-i="researchLabel">
+                MANTRA 02 / JEJAK SEBELUM KESIMPULAN
+              </p>
+              <h3 id="research-title" data-i="researchTitle">
+                Tanya lebih tajam.<br />Baca lebih dalam.
+              </h3>
+              <p data-i="researchBody">
+                Pisahkan apa yang diketahui dari apa yang hanya diduga. Telusuri
+                sumber asli, bandingkan bukti, dan sisakan tempat untuk berubah
+                pikiran.
+              </p>
+              <p class="practice" data-i="researchPractice">
+                Coba ini: ambil satu klaim. Temukan sumber primernya, lalu tulis
+                satu hal yang belum dijelaskan bukti itu.
+              </p>
+              <span class="page-number" aria-hidden="true">II.</span>
+            </div>
+            <div
+              class="grimoire-panel"
+              id="learn"
+              aria-labelledby="learn-title"
+            >
+              <p class="eyebrow" data-i="learnLabel">
+                MANTRA 03 / GAGAL ADALAH CATATAN
+              </p>
+              <h3 id="learn-title" data-i="learnTitle">
+                Belum mengerti<br />bukan berarti tak mampu.
+              </h3>
+              <p data-i="learnBody">
+                Jelaskan sebuah gagasan dengan bahasamu sendiri. Ketika
+                penjelasan tersendat, kamu baru saja menemukan titik belajar
+                berikutnya.
+              </p>
+              <p class="practice" data-i="learnPractice">
+                Coba ini: setelah mencoba, catat apa yang meleset, mengapa, dan
+                satu perubahan untuk percobaan berikutnya.
+              </p>
+              <span class="page-number" aria-hidden="true">III.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="journal" class="journal" aria-labelledby="journal-title">
+        <div class="wrap journal-grid">
+          <div>
+            <p class="eyebrow" data-i="journalLabel">03 / CATATAN PERJALANAN</p>
+            <h2 id="journal-title" data-i="journalTitle">
+              Kemajuan sering<br />berbicara pelan.
+            </h2>
+            <p class="journal-intro" data-i="journalIntro">
+              Bukan jurnal pencapaian sempurna. Ini cara kita kembali ke meja,
+              setiap kali sesuatu belum berhasil.
+            </p>
+            <div class="handnote" data-i="handnote">
+              Coba. Amati. Pahami. Ulangi.
+            </div>
+          </div>
+          <ol class="process">
+            <li>
+              <span class="step">01</span>
+              <div>
+                <h3 data-i="step1">Mulai dengan pertanyaan.</h3>
+                <p data-i="step1Body">
+                  Apa yang sebenarnya ingin diselesaikan? Beri nama pada masalah
+                  sebelum mencari alat.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step">02</span>
+              <div>
+                <h3 data-i="step2">Biarkan kenyataan menjawab.</h3>
+                <p data-i="step2Body">
+                  Buat percobaan terkecil. Simpan hasilnya, termasuk yang tidak
+                  sesuai harapan.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step">03</span>
+              <div>
+                <h3 data-i="step3">Bawa pulang pemahaman.</h3>
+                <p data-i="step3Body">
+                  Tulis apa yang berubah dalam pikiranmu. Pengetahuan tumbuh
+                  ketika bisa dijelaskan kembali.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="closing wrap">
+        <p class="eyebrow" data-i="closingLabel">
+          MASIH BANYAK YANG BELUM KITA TAHU.
+        </p>
+        <h2 data-i="closingTitle">Bagus. Mari mulai dari sana.</h2>
+        <a class="cta" href="https://github.com/aichrisz"
+          ><span data-i="github">Jelajahi karya Abel</span
+          ><span aria-hidden="true">↗</span></a
+        >
+      </section>
+    </main>
+    <footer class="wrap">
+      <div class="footer-top">
+        <a
+          class="brand"
+          href="#"
+          aria-label="Roxy — kembali ke atas"
+          data-a="top"
+          >roxy.</a
+        >
+        <p data-i="footerLine">
+          The Quiet Current — ruang untuk berpikir, bukan terburu-buru.
+        </p>
+        <a href="#main" data-i="back">Kembali ke atas ↑</a>
+      </div>
+      <div class="credits">
+        <p data-i="disclaimer">
+          Proyek fan-made oleh Abel. Persona AI, bukan orang nyata. Tidak
+          berafiliasi dengan pemegang hak Mushoku Tensei.
+        </p>
+        <p>
+          <span data-i="credit"
+            >Ilustrasi Roxy: materi resmi Mushoku Tensei; hak cipta milik
+            pemegang hak terkait.</span
+          >
+          <a href="https://mushokutensei.jp/character/" data-i="source"
+            >Sumber resmi ↗</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "quiet-current",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "check": "node --check scripts/public-files.mjs && node --check tests/hardening.spec.mjs && node --check app.js && node --check scripts/server.mjs && node --check scripts/build.mjs && node --check playwright.config.mjs && node --check tests/landing.spec.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "axe-core": "4.14.0"
+  }
+}
