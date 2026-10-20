@@ -1,5 +1,11 @@
 # Roxy — The Quiet Current
 
+**Live:** https://aichrisz.github.io/roxy-landing/
+
+**Source:** https://github.com/aichrisz/roxy-landing
+
+GitHub Pages menyajikan branch `gh-pages` dari root `/` melalui HTTPS. Branch `main` menyimpan source dan tes; branch deployment hanya memuat lima file runtime hasil build beserta `.nojekyll`, bukan server pengembangan atau dependensi Node. Deployment awal berasal dari source `07eee9c`; artefak `a0ec086` telah diverifikasi lewat HTTP, hash kelima file, dan browser publik di mobile/desktop ID/EN.
+
 Landing page editorial untuk persona mentor AI fan-made milik Abel. HTML statis berbahasa Indonesia, dengan peningkatan JavaScript untuk bahasa Inggris, preferensi gerak, dan grimoire bertab. Bukan manusia dan bukan situs resmi anime.
 
 ## Menjalankan
